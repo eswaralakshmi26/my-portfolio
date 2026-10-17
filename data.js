@@ -94,7 +94,7 @@ achievements: [
     { title: "Data Visualization: Empowering Business with Effective Insights", issuer: "Forage (Tata program)", year: "", file: "certificates/data_visualisation.pdf" }
   ],
   contact: {
-    text: "I am looking for a team where I can contribute and keep learning. Send me a message and I will reply as soon as I can.",
+    text: "I'm excited to start my career as a software developer, contribute my skills, and grow through new challenges. Feel free to reach out!",
     email: "eswaralakshmi26@gmail.com",
     github: "https://github.com/eswaralakshmi26",
     linkedin: "https://www.linkedin.com/in/eswaralakshmi-dandu"
