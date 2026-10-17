@@ -26,7 +26,7 @@ const DATA = {
         "Applied software development best practices, version control and deployment workflows across the full software development lifecycle."
       ],
       file: "certificates/Infosys Internship certificate.pdf" },
-    { role: "Web Development Intern", org: "Vault of Codes (AICTE internship)", period: "Add dates",
+    { role: "Web Development Intern", org: "Vault of Codes (AICTE internship)", period: "4 weeks",
       points: ["Developed 3+ web development projects using HTML, CSS, and JavaScript, including a personal portfolio, animated recipe card, and internships page.",
         "Designed and developed the VaultofCodes website with responsive layouts, interactive elements, and CSS animations to enhance user experience."
       ],
