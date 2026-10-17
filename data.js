@@ -1,9 +1,8 @@
-/* ====== EDIT THIS FILE ONLY: everything on the site comes from here ======
-   Certificate proof: put files in the certificates/ folder and match the "file" names below. */
+
 const DATA = {
   name: "Eswara Lakshmi Dandu",
-  // role: "Full Stack Developer",
-  photo: "",   /* optional: put your photo in this folder and write its name, e.g. "photo.jpg". It shows on the right of the intro. Leave empty for no photo. */
+  
+  photo: "",  
   status: "Open to internships and entry-level roles",
   lead: "Computer Science Engineering undergraduate with a strong foundation in data structures, algorithms and object-oriented programming, and hands-on experience building MERN stack applications and AI-powered tools.",
   stack: ["Java", "Python","C", "React.js", "Node.js", "MongoDB","Express"],
