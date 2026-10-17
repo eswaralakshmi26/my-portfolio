@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eswara Lakshmi Portfolio</title>
+<meta name="description" content="Portfolio of Eswara Lakshmi Dandu: projects, skills, achievements and certifications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg" id="bg" aria-hidden="true"></div>
+<div class="progress" id="progress"></div>
+
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Back to home">EL</a>
+
+  <nav aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#certifications">Certifications</a>
+  </nav>
+
+  <div class="nav-end">
+    <a class="btn small" href="#contact">Contact</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="status" id="status"></p>
+      <h1 id="heroName"></h1>
+      <p class="role"><span class="grad" id="roleLine"></span></p>
+      <p class="lead" id="lead"></p>
+      <div class="actions">
+        <a class="btn" href="#projects">View projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="visual" id="visual" aria-hidden="true"></div>
+  </section>
+
+  <section id="about" class="wrap">
+    <h2>About me</h2>
+    <div class="about">
+      <div id="aboutText"></div>
+    </div>
+  </section>
+
+  <section id="skills" class="wrap">
+    <h2>Skills</h2>
+    <div class="skill-grid" id="skillGrid"></div>
+  </section>
+
+  <section id="experience" class="wrap">
+    <h2>Experience</h2>
+    <div class="exp-grid" id="expGrid"></div>
+  </section>
+
+  <section id="projects" class="wrap">
+    <h2>Projects</h2>
+    <div class="proj-grid" id="projGrid"></div>
+  </section>
+
+  <section id="achievements" class="wrap">
+    <h2>Achievements</h2>
+    <ol class="timeline" id="achList"></ol>
+  </section>
+
+  <section id="certifications" class="wrap">
+    <h2>Certifications</h2>
+    <div class="cert-grid" id="certGrid"></div>
+  </section>
+
+  <section id="contact" class="wrap contact">
+    <h2>Let's work together</h2>
+    <p id="contactText"></p>
+    <div class="actions" id="contactLinks"></div>
+  </section>
+</main>
+
+<footer class="wrap foot"><span id="year"></span></footer>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
