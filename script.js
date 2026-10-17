@@ -43,7 +43,7 @@ $('contactLinks').innerHTML = `
   <a class="btn" href="mailto:${esc(d.contact.email)}">${esc(d.contact.email)}</a>
   <a class="btn ghost" href="${esc(d.contact.github)}" target="_blank" rel="noopener">GitHub</a>
   <a class="btn ghost" href="${esc(d.contact.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>`;
-$('year').textContent = `© ${new Date().getFullYear()} ${d.name}`;
+
 
 /* Page background: transparent curved lines that run the full width and scroll with the content.
    One tall tile (two mirrored sections) repeats down the page, fading softly at its seams. */
